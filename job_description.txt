@@ -1,0 +1,3 @@
+We are hiring an entry-level AI Engineer with experience in Python, TensorFlow, and Docker.
+Familiarity with data preprocessing, computer vision, and NLP is preferred.
+Knowledge of Linux environments, Git, and Jupyter is a plus.
