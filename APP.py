@@ -11,14 +11,14 @@ skill_keywords = [
 
 st.set_page_config(page_title="Resume Screening AI Assistant", layout="centered")
 
-st.title("🧠 Resume Screening AI Assistant")
+st.title("Resume Screening AI Assistant")
 st.markdown("Upload your resume and paste a job description to get a skill match score!")
 
 # Upload resume
-resume_file = st.file_uploader("📄 Upload Resume (PDF only)", type=["pdf"])
+resume_file = st.file_uploader("Upload Resume (PDF only)", type=["pdf"])
 
 # Job Description
-job_desc = st.text_area("📝 Paste Job Description Here", height=200)
+job_desc = st.text_area("Paste Job Description Here", height=200)
 
 if st.button("Analyze"):
     if resume_file and job_desc.strip():
